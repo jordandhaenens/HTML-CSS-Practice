@@ -1,0 +1,56 @@
+body {
+	background-color: beige;
+}
+
+
+nav {
+	background-color: white;
+	height: 30px;
+}
+
+nav li {
+	float: left;
+	list-style-type: none;
+	margin: 5px 15px 0 15px;
+	font-family: "Arial";
+	cursor: pointer;
+}
+
+nav li:hover {
+	color: white;
+}
+
+main {
+	width: 70%;
+	float: left;
+	background-color: lightblue;
+	margin: 0, auto;
+	padding: 0 1%;
+}
+
+aside {
+	width: 30%;
+	float: right;
+	background-color: lightgreen; 
+	margin: 0, auto;
+	padding: 0 1%;
+}
+
+footer {
+	background-color: cyan;	
+	color: black;
+	clear: both; /* this keeps both sides of the footer clear of other elements */
+	text-align: center;
+}
+
+.wrapper {
+	background-color: white;
+	width: 100%;
+	margin: 0 15px;
+}
+
+h1, h2, h3 {
+	color: blue;
+}
+
+
